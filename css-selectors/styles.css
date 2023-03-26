@@ -1,0 +1,98 @@
+.synopsis{
+    color:light gray;
+    font-style:italic;
+}
+
+/* synopsis에서 em의 요소만 콕 집어서 정의할 수 있다.(다른 요소도 집을 수 있음)*/
+.synopsis em{
+    font-style: normal;
+}
+
+.button:link,
+.button:visited{
+    display:block;
+    text-decoration:none;
+    
+    color:#FFF;
+    background-color:#5995DA;
+    font-weight:bold;
+    padding:20px;
+    text-align: center;
+    border:2px solid #545b62;
+    border-radius: 5px;
+
+    width:200px;
+    margin:20px auto;
+}
+
+.button:hover,
+.button:visited:hover{
+    color: #FFF;
+    background-color:#76AEED;
+}
+
+.button:active,
+.button:vitited:active{
+    color:#FFF;
+    background-color:#5995DA;
+}
+
+.page{
+    width:600px;
+    margin:0 auto;
+}
+
+.call-to-action{
+    font-style:italic;
+    background-color:orange;
+}
+
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+
+#button-2{
+    background-color:red;
+}
+
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
+
+a:active{
+    color:red;
+}
+
+a:visited:hover{
+    color:orange;
+}
+
+a:visited:active{
+    color:red;
+}
+
+.call-to-action:link,
+.call-to-action:visited{
+    background-color:red;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover{
+    background-color:#F5CF8E;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active{
+    background-color: #EEB75A;
+}
+
+#button-2{
+    color:darkgrey;
+}

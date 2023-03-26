@@ -1,0 +1,57 @@
+body{
+    color: #414141;
+    background-color: #EEEEEE; /*light-gray*/
+    font-size: 18px;
+}
+
+h1{
+    font-size: 36px;
+    font-family:"Helvetica","Arial",asns-serif;
+}
+
+h2{
+    font-size: 28px;
+    font-family:"Helvetica","Arial",asns-serif;
+}
+
+h3{
+    font-size: 36px;
+    font-family:"Helvetica","Arial",asns-serif;
+}
+
+/*or you can present it like this*/
+
+h1,h2,h3,h4,h5{
+    font-family:"Helvetica","Arial",asns-serif;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+u2{
+    list-style-type: lower-roman;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Helvetica","Arial",sans-serif;
+    font-weight: normal;
+}
+
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+
+strong{
+    font-weight: normal;
+    font-style: italic;
+}

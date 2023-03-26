@@ -1,0 +1,45 @@
+h1,p{
+    background-color: #DDE0E3;
+}
+/*h1,p는 block 요소 임을 알 수 있다.*/
+
+em,strong{
+    background-color: #B2D6FF;
+    display:inline;
+    margin:50px;
+}
+
+h1{
+    padding:50px;
+    border-bottom: 1px solid #5D6063;
+}
+
+p{
+    padding: 20px 0px 20px 10px; /*vertical Horizontal*/
+    margin-bottom: 50px;
+    margin-top:25px;
+}
+
+div{
+    color:#FFF;
+    background-color:#5995DA;
+    font-weight:bold;
+    padding:20px;
+    text-align:center;
+    border:2px solid #5D6063;
+    border-radius:5px;
+    width:200px;
+    box-sizing:border-box; 
+    /*box-sizing 는 padding등을 포함한 크기를 지정해준다.*/
+    margin:20px auto;
+}
+
+body{
+    text-align:center;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
