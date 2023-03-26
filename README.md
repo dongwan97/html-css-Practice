@@ -1,4 +1,7 @@
 # html-css-tutorial
 
 https://www.internetingishard.com/
-Interneting is Hard 를 연습했던 파일들 입니다. 
+
+이 링크에서 사용된 html + css 예제들을 연습하면서 만들었던 파일입니다. 
+
+it is written for studying Html + CSS , everything is example used in link.
